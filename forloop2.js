@@ -1,16 +1,9 @@
-
 //-----------------------------------------------------------------------------
-//					practice 05 isDrunk js
+//					practice 03 forlooop2				
 //-----------------------------------------------------------------------------
-var isDrunk;
-isDrunk = true;
 
-if(!isDrunk)
+var i;
+for (i=1; i <=10; i++)
 {
-	console.log('Cannot Drive');
+	console.log('hi' +i);
 }
-else
-{
-	console.log('Can Drive');
-}
-

@@ -1,16 +1,13 @@
 
 //-----------------------------------------------------------------------------
-//					practice 05 isDrunk js
+//					practice increment  		
 //-----------------------------------------------------------------------------
-var isDrunk;
-isDrunk = true;
 
-if(!isDrunk)
-{
-	console.log('Cannot Drive');
-}
-else
-{
-	console.log('Can Drive');
-}
+var x ;
 
+
+x = 0;
+x++;
+console.log(x);
+x++;
+console.log	(x);

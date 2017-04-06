@@ -1,16 +1,9 @@
 
 //-----------------------------------------------------------------------------
-//					practice 05 isDrunk js
+//					Array 01.js
 //-----------------------------------------------------------------------------
-var isDrunk;
-isDrunk = true;
+var favFoods;
 
-if(!isDrunk)
-{
-	console.log('Cannot Drive');
-}
-else
-{
-	console.log('Can Drive');
-}
-
+favFoods = ['Mango', 'Chicken', 'Puri','Dosa'];
+console.log(favFoods);
+console.log(favFoods.length);

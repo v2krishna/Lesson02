@@ -1,16 +1,11 @@
 
 //-----------------------------------------------------------------------------
-//					practice 05 isDrunk js
+//					practice 07 for loops (multiply table)
 //-----------------------------------------------------------------------------
-var isDrunk;
-isDrunk = true;
-
-if(!isDrunk)
+var i , n;
+n = 2;
+for(i = 1; i<=10;i++)
 {
-	console.log('Cannot Drive');
-}
-else
-{
-	console.log('Can Drive');
+	console.log(n + '*'+i +'=' + n*i);
 }
 
